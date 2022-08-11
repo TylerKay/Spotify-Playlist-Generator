@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Forms Page {% endblock %}
+
+{% block content %}
+<h1>Forms Page</h1>
+
+<form action = "#" method = "post">
+    <p>Spotify Username</p>
+    <p><input type = "text" name = "username" /></p>
+    <p>Playlist Name</p>
+    <p><input type = "text" name = "playlistName" /></p>
+    <p>Playlist Description</p>
+    <textarea name = "playlistDescription", rows = "4", cols = "50">
+        </textarea>
+        <br>
+    <p><input type = "submit" value = "Submit" /></p>
+</form>
+{% endblock %}
+

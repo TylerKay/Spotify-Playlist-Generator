@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .appTitle {
+    margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+  }
+  
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(30, 215, 97, 0.9), rgba(0, 0, 0, 1));
+  background-color: transparent;
+}
+
+body {
+    text-align: center;
+    color: white;
+}
+form {
+    display: inline-block;
+}
+
+.header .forms {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: linear-gradient(rgb(0, 0, 0, 1), rgba(30, 215, 97, 0.9));
+}
+
+.success {
+  margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+}

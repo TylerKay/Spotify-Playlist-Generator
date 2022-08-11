@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %} Spotify Recommendation Playlist Application {%endblock %}
+
+{% block content %}
+
+<section class = "header">
+    <div class="d-flex justify-content-center">
+        <div class = "appTitle">
+            <h1>Spotify Recommendation Playlist Application</h1>
+            <br>
+            <br>
+            <a class = "btn btn-primary" href = "#getStarted">Get Started</a>
+        </div>
+     </div>
+
+    <div class = "forms" id = "getStarted">
+        <form action = "#" method = "post">
+            <p>Spotify Username</p>
+            <p><input type = "text" name = "username" /></p>
+            <p>Playlist Name</p>
+            <p><input type = "text" name = "playlistName" /></p>
+            <p>Playlist Description</p>
+            <textarea name = "playlistDescription", rows = "4", cols = "50">
+                </textarea>
+            <p>Number of Songs to Add to Playlist</p>
+            <p><input type = "number" name = "numSongsToAdd" /></p>
+                <br>
+                <br>
+            <p><input type = "submit" value = "Create a Playlist!" /></p>
+        </form>
+    </div>
+</section>
+
+{% endblock %}
