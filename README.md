@@ -25,7 +25,7 @@
 
 ## Instructions:
 
-### Running python script
+### Running Python Script
 
 1. Login to https://developer.spotify.com/dashboard/ and click on create an app to recieve a Client ID and Client Secret. In Edit Settings, set Redirect URIs to http://127.0.0.1:8080/.
 
@@ -57,4 +57,4 @@
 
 #### After that, you're all set! Enjoy!
 
-Last updated: 8/10/22
+Last updated: 8/18/22
