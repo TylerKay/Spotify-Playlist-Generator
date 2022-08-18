@@ -57,4 +57,9 @@
 
 #### After that, you're all set! Enjoy!
 
+### Notes:
+
+- To convert python script -> .exe, pip install pyinstaller.
+  - Command used: pyinstaller -F --add-data "templates;templates" --add-data "static;static" appDriver.py
+
 Last updated: 8/18/22
