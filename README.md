@@ -15,7 +15,7 @@
 - addSpotifySongs.py
   - (Program that add songs to a playlist via command line)
 
-## Installations Required:
+## Required Installations (if running via Python script):
 
 - Python 3+
 - Spotipy
