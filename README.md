@@ -55,11 +55,28 @@
 
 4. Fill in the Spotify Username, Playlist Name, Playlist Description, and Number of Songs to Add to Playlist and click "Create a Playlist".
 
+### For macOS (Running through .app)
+
+1. Run the appDriver.app directory
+
+2. Create a file named ".env". Inside of it, include set your client_id, client_secret, and redirect_uri.
+
+3. In your browser, enter 127.0.0.1:5000 as the url.
+
+4. Fill in the Spotify Username, Playlist Name, Playlist Description, and Number of Songs to Add to Playlist and click "Create a Playlist".
+
 #### After that, you're all set! Enjoy!
 
 ### Notes:
 
 - To convert python script -> .exe, pip install pyinstaller.
+
   - Command used: pyinstaller -F --add-data "templates;templates" --add-data "static;static" appDriver.py
 
-Last updated: 8/18/22
+- To convert python -> .app, pip install py2app.
+  1. Create a setup.py script by running the command: - py2applet --make-setup Driver.py
+  2. Inside the setup.py script, add to OPTIONS to:
+     'packages': ['flask', 'werkzeug', 'config', 'jinja2'],
+     'resources': ['./templates', './static'],
+  3. python3 setup.py py2app
+  Last updated: 8/18/22
